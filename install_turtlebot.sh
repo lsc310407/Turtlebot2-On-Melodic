@@ -3,11 +3,11 @@ set -e
 
 sudo apt update
 sudo apt install git -y
-sudo apt install ros-melodic-kobuki-* -y
-sudo apt install ros-melodic-ecl-streams -y
-sudo apt install ros-melodic-depthimage-to-laserscan -y
-sudo apt install ros-melodic-joy -y
-sudo apt install ros-melodic-yujin-ocs -y
+sudo apt install ros-noetic-kobuki-* -y
+sudo apt install ros-noetic-ecl-streams -y
+sudo apt install ros-noetic-depthimage-to-laserscan -y
+sudo apt install ros-noetic-joy -y
+sudo apt install ros-noetic-yujin-ocs -y
 
 mkdir -p ~/turtlebot_ws/src
 cd ~/turtlebot_ws/src
